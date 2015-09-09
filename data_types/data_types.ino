@@ -101,7 +101,7 @@ to Classes, and only allow data to be grouped together.
 They (or pointers to them) are passed into functions when you need 
 to operate on the data they contain.
 Once they are declared, you can create them just like a 
-primative type.
+primitive type.
 
 There's always a catch with the Arduino, and in this case we can't 
 use the usual struct.struct_data notation to *assign* data.
@@ -120,10 +120,10 @@ String will_be_Math = mike.enrolled_classes[0];
 String will_be_Mike = mike.first_name;
 //mike.enrolled_classes[0] = "P.E.";
 
-//this even more powerfull when you realize
-//you can make an array of students...
+//this even more powerful when you realize
+//you can now make an array of students...
 
-Student class_of_2016[255];
+Student class_of_2016[255]; //though we can't create huge arrays on the arduino...
 
 //There are problems with arrays, sometimes you can't
 //find a contiguous block of memory big enough to fit
