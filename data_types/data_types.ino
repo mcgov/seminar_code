@@ -74,6 +74,7 @@ They can be created like this:
 */
 
 int an_array_of_ints[5];
+//an_array_of_ints[0] = 1; //this doesn't compile on mine, but maybe this isn't universal?
 /*
 We have declared an array of 5 integers.
 **Arrays (and variables in general) are not always guaranteed to be 
@@ -117,6 +118,7 @@ Student mike = {
 
 String will_be_Math = mike.enrolled_classes[0];
 String will_be_Mike = mike.first_name;
+//mike.enrolled_classes[0] = "P.E.";
 
 //this even more powerfull when you realize
 //you can make an array of students...
